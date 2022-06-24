@@ -1,0 +1,28 @@
+.card {
+    flex-grow: 1;
+    border: rgb(25, 25, 180) 5px solid;
+    width:350px;
+    padding: 10px;
+    position: absolute;
+    top:30%;
+    left:30%;
+}
+
+h1{
+    text-align: center;
+ }
+ .primary {
+    background-color: rgb(55, 82, 106);
+    font-size: 14px;
+      margin: 2px;
+      margin-left: 120px;
+      padding: 8px 18px;
+    
+    &:hover {
+        background-color: rgb(7, 70, 121);
+
+    }
+}
+.form-control {
+    size: 300px;
+}

@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "cuuk",
+      "email": "cuuk@gmail.com",
+      "address": "34, Victoria St.",
+      "website": "www.cuuk.ca",
+      "service": "French fries"
+    },
+    {
+      "id": 3,
+      "name": "Tim Hortons",
+      "email": "guestrelations@timhortons.com",
+      "address": "4 King St E ·",
+      "website": "https://www.timhortons.ca",
+      "service": "Coffee and Snack"
+    },
+    {
+      "id": 4,
+      "name": "cvxvxvx",
+      "email": "xvxvx",
+      "phone": "xvxvx",
+      "address": "xvxvx",
+      "website": "xvvxv",
+      "service": "xvxvxvx"
+    },
+    {
+      "id": 5,
+      "name": "fdfs",
+      "email": "sfsfs",
+      "phone": "sfsfs",
+      "address": "sffsfs",
+      "website": "fsfsfsf",
+      "service": "ssfsfsfs"
+    },
+    {
+      "id": 6,
+      "name": "fsfsfs",
+      "email": "sfsfs",
+      "phone": "sfsfs",
+      "address": "sfsfs",
+      "website": "sfsfsf",
+      "service": "sfsfsfsfs"
+    },
+    {
+      "id": 7,
+      "name": "dfdfd",
+      "email": "dfdfd",
+      "phone": "dfdfd",
+      "address": "dfdfd",
+      "website": "dfdfd",
+      "service": "dffdfd"
+    },
+    {
+      "id": 8,
+      "name": "dfdfd",
+      "email": "fsff",
+      "phone": "2121",
+      "address": "sdsd",
+      "website": "sdsd",
+      "service": "dsds"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,41 @@
+<div class="navbar navbar-light bg-primary">
+<div class="container-fluid">
+    <h1>Restaurant Record Management System</h1>
+    <div class = "d-flex">
+        <button type="button" (click)="openAddRestaurant()" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Restaurant</button>
+        <app-modal></app-modal>
+    </div>
+</div>
+</div>
+
+<table class = "table mt-4">
+    <thead>
+        <tr>
+            <th scope="col">Restaurant ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone No:</th>
+            <th scope="col">Address</th>
+            <th scope="col">Website Address:</th>
+            <th scope="col">Service</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of allRestaurantData">
+            <td>{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.email}}</td>
+            <td>{{data.phone}}</td>
+            <td>{{data.address}}</td>
+            <td>{{data.website}}</td>
+            <td>{{data.service}}</td>
+            
+            <td><a routerLink="/modal/{{data.id}}">
+                <button type = "button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button></a>&nbsp;
+                
+                <button class="btn btn-danger" (click)="delRecord(data)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
