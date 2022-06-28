@@ -1,65 +1,108 @@
 {
   "posts": [
     {
-      "id": 2,
+      "id": 1,
       "name": "cuuk",
       "email": "cuuk@gmail.com",
+      "phone": "509 887 654",
       "address": "34, Victoria St.",
       "website": "www.cuuk.ca",
       "service": "French fries"
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Tim Hortons",
       "email": "guestrelations@timhortons.com",
+      "phone": "569 342 123",
       "address": "4 King St E ·",
       "website": "https://www.timhortons.ca",
       "service": "Coffee and Snack"
     },
     {
+      "id": 3,
+      "name": "Starbucks",
+      "email": "starbucks@gmail.com",
+      "phone": "519 878 766",
+      "address": "Queen st.",
+      "website": "www.starbucks.ca",
+      "service": "coffee and donut"
+    },
+    {
       "id": 4,
-      "name": "cvxvxvx",
-      "email": "xvxvx",
-      "phone": "xvxvx",
-      "address": "xvxvx",
-      "website": "xvvxv",
-      "service": "xvxvxvx"
+      "name": "Sushi Masaki Saito",
+      "email": "infoto@masakisaito.ca",
+      "phone": "(416) 924-0888",
+      "address": "88 Avenue Rd, Toronto, ON M5R 2H2",
+      "website": "https://www.masakisaito.ca",
+      "service": "sushii"
     },
     {
       "id": 5,
-      "name": "fdfs",
-      "email": "sfsfs",
-      "phone": "sfsfs",
-      "address": "sffsfs",
-      "website": "fsfsfsf",
-      "service": "ssfsfsfs"
+      "name": "Restaurant Pearl Morissette",
+      "email": "restaurant@pearlmorissette.com",
+      "phone": "(905) 562-7709",
+      "address": "3953 Jordan Rd, Jordan Station, ON L0R 1S0",
+      "website": "https://restaurantpearlmorissette.com/",
+      "service": "French influences cuisine"
     },
     {
       "id": 6,
-      "name": "fsfsfs",
-      "email": "sfsfs",
-      "phone": "sfsfs",
-      "address": "sfsfs",
-      "website": "sfsfsf",
-      "service": "sfsfsfsfs"
+      "name": "Edulis Restaurant",
+      "email": "info@edulisrestaurant.com",
+      "phone": "4167034222 ",
+      "address": "169 Niagara St Toronto, ON M5V 1C9",
+      "website": "http://www.edulisrestaurant.com",
+      "service": "lunch with  seafood, vegetables, and wild mushrooms."
     },
     {
       "id": 7,
-      "name": "dfdfd",
-      "email": "dfdfd",
-      "phone": "dfdfd",
-      "address": "dfdfd",
-      "website": "dfdfd",
-      "service": "dffdfd"
+      "name": "Dreyfus ",
+      "email": "dreyfustoronto@gmail.com.",
+      "phone": "(416) 323-1385",
+      "address": "96 Harbord St, Toronto, ON M5S 1G6",
+      "website": "http://dreyfustoronto.com/",
+      "service": "salad for lunch"
     },
     {
       "id": 8,
-      "name": "dfdfd",
-      "email": "fsff",
-      "phone": "2121",
-      "address": "sdsd",
-      "website": "sdsd",
-      "service": "dsds"
+      "name": "North & Navy",
+      "email": "hello@northandnavy.com",
+      "phone": "(613) 232-6289",
+      "address": "226 Nepean St, Ottawa, ON K2P 0B8",
+      "website": "https://northandnavy.com/",
+      "service": "dishes with seasonal game, seafood and vegetables. "
+    },
+    {
+      "id": 9,
+      "name": "Tim Hortons",
+      "email": "guestrelations@timhortons.com",
+      "phone": "(519) 745-0461",
+      "address": "120 Ottawa St N, Kitchener, ON N2H 3K4",
+      "website": "https://locations.timhortons.ca/on/kitchener/120-ottawa-street-n",
+      "service": "coffee and snacks"
+    }
+  ],
+  "singup": [
+    {
+      "userName": "mehtaab",
+      "mobile": "225 334 212",
+      "email": "mehtaab.zinmar23@gmail.com",
+      "password": "myname123",
+      "id": 1
+    },
+    {
+      "userName": "Erfan",
+      "mobile": "223 212 321",
+      "email": "irfan@gmail.com",
+      "password": "343432v",
+      "id": 2
+    },
+    {
+      "userName": "Morat",
+      "mobile": "123456789",
+      "email": "morat@gmail.com",
+      "password": "12345678",
+      "id": 3
     }
   ],
   "comments": [],

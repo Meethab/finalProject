@@ -1,7 +1,7 @@
 import { AppRoutingModule } from './app-routing.module';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { MatIconModule } from '@angular/material/icon';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
@@ -14,7 +14,9 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ModalComponent } from './components/modal/modal.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -23,13 +25,16 @@ import { ModalComponent } from './components/modal/modal.component';
     SignupComponent,
     RestaurantRecordComponent,
     NotFoundComponent,
-    ModalComponent
+    NavBarComponent,
+    SearchBarComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    
+    MatIconModule,
+    MatToolbarModule,
     MatCardModule,
     MatButtonModule,
     MatFormFieldModule,

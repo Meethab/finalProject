@@ -1,0 +1,35 @@
+.container {
+    padding: 40px 0px 0px 40px;  
+   
+    background: #6b530b;
+    color: white;
+    border-bottom: 38px solid rgba(0,0,0, 0.1);
+}
+
+h1 {
+    font-size: px;
+    margin-top: 5px;
+    display: inline;
+}
+
+app-search-bar {
+    padding-left: 20px;
+    padding-right: 50px;;
+    flex-grow: 30;
+}
+
+a {
+    padding: 12px;
+    height: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color:inherit
+}
+
+a:hover {
+    color: black;
+}
+
+.container:last-child {
+    padding-right: 20px;
+}

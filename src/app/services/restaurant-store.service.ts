@@ -46,7 +46,8 @@ export class RestaurantStoreService {
 
     getAllRestaurantData() {
       this.getRestaurant().subscribe(res => {        
-        this.datastore.setRestaurant(res);
+        this.datastore.setFullRestaurantList(res);
+        this.datastore.setRestaurants(res);
       })
     }
 

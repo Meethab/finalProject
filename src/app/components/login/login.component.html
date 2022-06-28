@@ -1,17 +1,19 @@
 <div class = "card">
-    <h1>User Login</h1><hr>
-    <form [formGroup]="logInForm">
+    <h2>User Login</h2><hr>
+    <form [formGroup]="logInForm" (ngSubmit)="logIn()">
         <div class="mb-3">
           <label for="email">Email address</label><br>
-          <input formControlName="email" type="text" class="form-control" id="email" name="email">          
+          <input formControlName="email" type="text" class="form-control" id="email" name="email">
+          <span class="text-danger" *ngIf="logInForm.controls['email'].dirty && logInForm.hasError('required','email')">*Email is required!</span> 
         </div>
         <div class="mb-3">
           <label for="password" >Password</label><br>
           <input formControlName="password" type="password" class="form-control" id="password" name="password">
+          <span class="text-danger" *ngIf="logInForm.controls['password'].dirty && logInForm.hasError('required','password')">*Password is required!</span>
         </div>
         <br>
-        <button type="submit" class="primary">Login</button>
+        <button type="submit" [disabled]="!logInForm.valid" class="primary">Login</button>
     </form>
-    <a href routerLink="/signup">New User? Please Signup!</a>
+    <a style="color: rgb(16, 64, 131); margin-top: 10px;" href routerLink="/signup">New User? Please Signup!</a>
 </div>
 

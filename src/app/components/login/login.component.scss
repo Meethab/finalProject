@@ -1,14 +1,14 @@
 .card {
     flex-grow: 1;
-    border: rgb(25, 25, 180) 5px solid;
+    border: rgb(165, 120, 22) 5px solid;
     width:350px;
     padding: 10px;
     position: absolute;
     top:30%;
-    left:30%;
+    left:37%;
 }
 
-h1{
+h2{
     text-align: center;
  }
  .primary {
@@ -19,7 +19,7 @@ h1{
       padding: 8px 18px;
     
     &:hover {
-        background-color: rgb(7, 70, 121);
+        background-color: rgb(121, 93, 7);
 
     }
 }

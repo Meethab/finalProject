@@ -1,0 +1,6 @@
+<div class="container">
+    <h1>{{ title }}</h1>
+    <app-search-bar (textEntered)="onSearch($event)"></app-search-bar>
+    <a (click)="clickAddRestaurant()" data-bs-toggle="modal" data-bs-target="#exampleModal" >Add New Restaurant</a>  
+    <a routerLink="/login">Log Out</a>
+</div>
